@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yêu Cầu Xóa Tài Khoản & Dữ Liệu - Account Deletion Request</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --text: #1f2937;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --danger-bg: #fef2f2;
+      --danger-border: #fecaca;
+      --danger-text: #991b1b;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1 { font-size: 1.75rem; color: #0f172a; margin-top: 0; margin-bottom: 8px; }
+    .subtitle { color: #64748b; margin-bottom: 24px; font-size: 0.95rem; }
+    h2 { font-size: 1.25rem; color: #1e293b; margin-top: 28px; margin-bottom: 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+    ul, ol { padding-left: 20px; margin-bottom: 16px; }
+    li { margin-bottom: 8px; }
+    .notice {
+      background-color: var(--danger-bg);
+      border-left: 4px solid var(--danger-border);
+      color: var(--danger-text);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    .contact-box {
+      background-color: #f1f5f9;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 40px; text-align: center; font-size: 0.85rem; color: #94a3b8; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Yêu Cầu Xóa Tài Khoản & Dữ Liệu</h1>
+    <div class="subtitle">Chính sách xóa tài khoản và dữ liệu người dùng cho ứng dụng <strong>[TÊN ỨNG DỤNG CỦA BẠN]</strong></div>
+
+    <p>Chúng tôi tôn trọng quyền riêng tư của bạn và cam kết cung cấp quy trình minh bạch để quản lý và xóa dữ liệu cá nhân theo đúng chính sách của Google Play.</p>
+
+    <h2>1. Các bước gửi yêu cầu xóa tài khoản</h2>
+    <p>Bạn có thể yêu cầu xóa tài khoản và các dữ liệu liên quan qua một trong hai phương thức sau:</p>
+
+    <h3>Cách 1: Xóa trực tiếp trong ứng dụng</h3>
+    <ol>
+      <li>Mở ứng dụng <strong>ScaleMate - Sổ Cân Gà</strong> và đăng nhập vào tài khoản của bạn.</li>
+      <li>Vuốt từ cạnh trái màn hình &rarr; chọn <strong>Tài khoản (Account)</strong>.</li>
+      <li>Nhấn vào <strong>Xóa tài khoản (Delete Account)</strong> và xác nhận yêu cầu.</li>
+    </ol>
+
+    <h3>Cách 2: Gửi yêu cầu qua Email (Dành cho người dùng đã gỡ cài đặt app)</h3>
+    <p>Nếu bạn đã gỡ cài đặt ứng dụng hoặc không thể truy cập, vui lòng gửi yêu cầu từ chính email bạn đã dùng để đăng ký tài khoản:</p>
+    <div class="contact-box">
+      <p><strong>Email tiếp nhận:</strong> <a href="mailto:ducthiem275@gmail.com">support@yourdomain.com</a></p>
+      <p><strong>Tiêu đề email:</strong> Yêu cầu xóa tài khoản [Tên ứng dụng] - [Tên đăng nhập / Số điện thoại]</p>
+      <p><strong>Nội dung:</strong> Nêu rõ email đăng ký hoặc ID tài khoản muốn xóa để chúng tôi đối soát và tiến hành xóa dữ liệu.</p>
+    </div>
+
+    <h2>2. Những dữ liệu nào sẽ bị xóa?</h2>
+    <p>Khi bạn yêu cầu xóa tài khoản, các thông tin sau sẽ được xóa vĩnh viễn khỏi máy chủ của chúng tôi:</p>
+    <ul>
+      <li>Thông tin định danh cá nhân (Họ tên, địa chỉ email, số điện thoại, ảnh đại diện).</li>
+      <li>Thông tin xác thực đăng nhập và mật khẩu được mã hóa.</li>
+      <li>Token thiết bị nhận thông báo đẩy (FCM token / device IDs).</li>
+    </ul>
+
+    <h2>3. Dữ liệu nào có thể được giữ lại</h2>
+    <ul>
+      <li><strong>Thời gian xử lý:</strong> Tài khoản và dữ liệu sẽ được vô hiệu hóa ngay lập tức và xóa hoàn toàn khỏi cơ sở dữ liệu chính kể từ khi xác nhận yêu cầu.</li>
+      <li><strong>Bản sao lưu dự phòng (Backups):</strong> Dữ liệu các phiếu cân, thông tin thu ngân, và tất cả các dữ liệu khác sẽ được giữ nguyên trên thiết bị cho đến khi xóa ứng dụng ra khỏi máy.</li>
+      <li><strong>Dữ liệu bắt buộc lưu giữ theo pháp luật:</strong> Các chứng từ hóa đơn, dữ liệu tài chính hoặc hồ sơ thuế (nếu có) có thể được giữ lại theo quy định pháp lý hiện hành của nhà nước, nhưng sẽ được tách biệt và vô danh hóa đối với mục đích sử dụng thông thường.</li>
+    </ul>
+
+    <div class="notice">
+      <strong>Lưu ý quan trọng:</strong> Hành động xóa tài khoản là vĩnh viễn và không thể khôi phục. Mọi dữ liệu liên quan sẽ biến mất hoàn toàn sau khi chu trình xóa hoàn tất.
+    </div>
+
+    <div class="footer">
+      &copy; 2026 SCALEMATE TEAM. All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
